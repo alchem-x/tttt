@@ -15,6 +15,11 @@ export default function defineConfig(env) {
         module: {
             rules: [
                 {
+                    resourceQuery: /raw/,
+                    type: 'asset/source',
+                },
+                {
+                    resourceQuery: /^((?!raw).)*$/,
                     test: /\.jsx?$/i,
                     use: [{
                         loader: 'babel-loader',

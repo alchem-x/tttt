@@ -4,7 +4,6 @@ import { translateViaGoogleApi } from '@/common/translate.js'
 export const useT4Store = defineStore('t4', {
     state() {
         return {
-            name: 'tttt',
             sourceValue: '',
             targetValue: {},
             languageList: [],
@@ -13,7 +12,7 @@ export const useT4Store = defineStore('t4', {
     },
     getters: {
         appName() {
-            return this.name
+            return 'tttt'
         },
         languageOptions() {
             return [

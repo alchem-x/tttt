@@ -40,7 +40,6 @@ export default function defineConfig(env) {
         plugins: [
             new HtmlWebpackPlugin({
                 template: resolve(import.meta.dirname, 'src/index.html'),
-                hash: true,
             }),
         ],
         resolve: {
@@ -52,6 +51,9 @@ export default function defineConfig(env) {
             minimizer: [
                 new TerserPlugin({ extractComments: false, })
             ],
+        },
+        output: {
+            filename: '[name].[contenthash].js',
         },
         performance: {
             maxEntrypointSize: 1024 * 1024,

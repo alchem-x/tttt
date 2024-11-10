@@ -6,7 +6,7 @@ import TargetDisplay from '@/components/TargetDisplay.jsx'
 import LanguageSelect from '@/components/LanguageSelect.jsx'
 import { useT4Store } from '@/store/t4.js'
 import { usePiniaLocalStorage } from '@/common/storage.js'
-import GitHubIcon from './components/GitHubIcon.jsx'
+import GitHubIcon from '@/components/GitHubIcon.jsx'
 
 const ClassName = css`
     box-sizing: border-box;

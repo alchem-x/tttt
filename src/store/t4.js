@@ -1,6 +1,15 @@
 import { defineStore } from 'pinia'
 import { translateViaGoogleApi } from '@/common/translate.js'
 
+export const languages = [
+    { value: 'en', label: 'English', },
+    { value: 'ja', label: 'Japanese', },
+    { value: 'ko', label: 'Korean', },
+    { value: 'ru', label: 'Russian' },
+    { value: 'zh-CN', label: 'Chinese (Simplified)', },
+    { value: 'zh-TW', label: 'Chinese (Traditional)', },
+]
+
 export const useT4Store = defineStore('t4', {
     state() {
         return {
@@ -15,14 +24,7 @@ export const useT4Store = defineStore('t4', {
             return 'tttt'
         },
         languageOptions() {
-            return [
-                { value: 'en', label: 'English', },
-                { value: 'ja', label: 'Japanese', },
-                { value: 'ko', label: 'Korean', },
-                { value: 'ru', label: 'Russian' },
-                { value: 'zh-CN', label: 'Chinese (Simplified)', },
-                { value: 'zh-TW', label: 'Chinese (Traditional)', },
-            ]
+            return languages
         },
         languageMap() {
             const m = {}

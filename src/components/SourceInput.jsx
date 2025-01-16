@@ -24,7 +24,7 @@ export default defineComponent({
             <div class={ClassName}>
                 <div class="title-line">
                     <NH4>{title}</NH4>
-                    <CopyButton value={t4Store.sourceValue}/>
+                    <CopyButton value={t4Store.sourceValue} />
                 </div>
                 <NInput type="textarea"
                     vModel:value={t4Store.sourceValue}

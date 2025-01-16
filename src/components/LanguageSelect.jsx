@@ -12,11 +12,11 @@ export default defineComponent({
         return (
             <div>
                 <NSelect placeholder="Select languages"
-                         vModel:value={t4Store.languageList}
-                         multiple
-                         clearable
-                         filterable
-                         options={t4Store.languageOptions}/>
+                    vModel:value={t4Store.languageList}
+                    multiple
+                    clearable
+                    filterable
+                    options={t4Store.languageOptions} />
             </div>
         )
     }

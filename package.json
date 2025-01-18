@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "webpack serve",
     "watch": "webpack --watch",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "format": "prettier --write --cache ."
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "lodash": "^4.17.21",
     "naive-ui": "^2.41.0",
     "pinia": "^2.3.0",
+    "prettier": "^3.4.2",
     "terser-webpack-plugin": "^5.3.11",
     "vue": "^3.5.13",
     "webpack": "^5.97.1",

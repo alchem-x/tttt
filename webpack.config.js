@@ -1,10 +1,11 @@
 import { resolve } from 'node:path'
 import HtmlWebpackPlugin from 'html-webpack-plugin'
 import TerserPlugin from 'terser-webpack-plugin'
-import webpack from 'webpack'
 
 /**
- * @returns {webpack.Configuration}
+ * Define webpack config
+ *
+ * @returns {import('webpack').Configuration}
  */
 export default function defineConfig(env) {
   return {

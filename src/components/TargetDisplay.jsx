@@ -4,7 +4,7 @@ import { css } from '@emotion/css'
 import { useT4Store } from '@/store/t4.js'
 import CopyButton from '@/components/CopyButton.jsx'
 
-const ClassName = css`
+const className = css`
   border: 1px solid #ccc;
   box-sizing: border-box;
   padding: 0.75rem;
@@ -41,7 +41,7 @@ export default defineComponent({
   render({ t4Store, lang }) {
     const displayValue = t4Store.targetValue[lang]
     return (
-      <div class={ClassName}>
+      <div class={className}>
         <div class="title-line">
           <NH4>{t4Store.languageMap[lang]}</NH4>
           <CopyButton value={displayValue} />

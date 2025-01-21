@@ -2,7 +2,7 @@ import { createApp, h } from 'vue'
 import App from './App.jsx'
 import { createPinia } from 'pinia'
 
-function main() {
+function startApp() {
   const app = createApp({
     render() {
       return h(App)
@@ -14,4 +14,4 @@ function main() {
   app.mount(divRef)
 }
 
-main()
+startApp()

@@ -8,7 +8,7 @@ import { useT4Store } from '@/store/t4.js'
 import { usePiniaLocalStorage } from '@/common/storage.js'
 import GitHubIcon from '@/components/GitHubIcon.jsx'
 
-const ClassName = css`
+const className = css`
   box-sizing: border-box;
   max-width: 1000px;
   margin: 0 auto;
@@ -52,7 +52,7 @@ export default defineComponent({
   },
   render({ t4Store }) {
     return (
-      <div class={ClassName}>
+      <div class={className}>
         <div class="app-title">
           <NH2>{t4Store.appName}</NH2>
           <a href="https://github.com/alchem-x/tttt" target="_blank">

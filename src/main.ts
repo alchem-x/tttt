@@ -1,6 +1,6 @@
 import { createApp, h } from 'vue'
 import { createPinia } from 'pinia'
-import AppWrapper from '@/AppWrapper.jsx'
+import AppWrapper from '@/AppWrapper.tsx'
 
 function startApp() {
   const app = createApp({

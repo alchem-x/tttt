@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue'
 import { NH4, NP } from 'naive-ui'
 import { css } from '@emotion/css'
-import { useT4Store } from '@/store/t4.js'
+import { useT4Store } from '@/store/t4.ts'
 import CopyButton from '@/components/CopyButton.jsx'
 
 const className = css`

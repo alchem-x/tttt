@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { translateViaGoogleApi } from '@/common/translate.js'
+import { translateViaGoogleApi } from '@/common/translate.ts'
 
 export const languages = [
   { value: 'en', label: 'English' },

@@ -2,7 +2,7 @@ import { defineComponent, watch } from 'vue'
 import { NH4, NInput } from 'naive-ui'
 import debounce from 'lodash/debounce'
 import { css } from '@emotion/css'
-import { useT4Store } from '@/store/t4.js'
+import { useT4Store } from '@/store/t4.ts'
 import CopyButton from '@/components/CopyButton.jsx'
 
 const className = css`

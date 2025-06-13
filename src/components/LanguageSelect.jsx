@@ -1,6 +1,6 @@
 import { NSelect } from 'naive-ui'
 import { defineComponent, watch } from 'vue'
-import { useT4Store } from '@/store/t4.js'
+import { useT4Store } from '@/store/t4.ts'
 
 export default defineComponent({
   setup() {

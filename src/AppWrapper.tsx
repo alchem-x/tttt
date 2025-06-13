@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import App from '@/App.jsx'
+import App from '@/App.tsx'
 import { NConfigProvider } from 'naive-ui'
 import themeOverrides from '@/common/naive-ui-theme-overrides.json'
 

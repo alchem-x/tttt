@@ -3,6 +3,7 @@ cd "$(dirname "$0")" || exit 1
 
 git checkout -b gh-pages
 pnpm run build
+rm -rf dist/*.LICENSE.txt
 mv dist docs
 git add -f docs
 git commit -m "Generate pages: $(date '+%Y-%m-%dT%H:%M:%S%z')"

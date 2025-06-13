@@ -1,6 +1,6 @@
 import { defineComponent, ref } from 'vue'
 import { NButton, NTooltip } from 'naive-ui'
-import clipboardCopy from '@/common/clipboardCopy.js'
+import clipboardCopy from '@/common/clipboardCopy.ts'
 
 export default defineComponent({
   props: {

@@ -4,8 +4,8 @@ import { NButton, NH2 } from 'naive-ui'
 import SourceInput from '@/components/SourceInput.jsx'
 import TargetDisplay from '@/components/TargetDisplay.jsx'
 import LanguageSelect from '@/components/LanguageSelect.jsx'
-import { useT4Store } from '@/store/t4.js'
-import { usePiniaLocalStorage } from '@/common/storage.js'
+import { useT4Store } from '@/store/t4.ts'
+import { usePiniaLocalStorage } from '@/common/storage.ts'
 import GitHubIcon from '@/components/GitHubIcon.jsx'
 
 const className = css`

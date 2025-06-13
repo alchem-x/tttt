@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "jsx": "preserve",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "lib": [
+      "ES2024"
+    ]
+  }
+}
